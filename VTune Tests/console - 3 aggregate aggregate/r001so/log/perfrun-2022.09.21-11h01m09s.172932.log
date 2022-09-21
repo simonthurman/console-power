@@ -1,0 +1,130 @@
+277 [165356] INFO perfrun.launcher <> - Launcher main begin
+303 [165356] INFO perfrun.launcher <> - MessageCatalogInit finished
+304 [165356] INFO perfrun.launcher <> - Launcher instance created
+304 [165356] INFO perfrun.launcher <> - argc = 7; cmdline = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\amplxe-runss.exe --ui-output-format xml --ui-output-fd 1012 --option-file C:\demo\console - 3 aggregate aggregate\r001so\config\runsa.options 
+364 [165356] INFO perfrun.launcher <> - New signal handler callback was added
+533 [165356] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+534 [165356] WARN perfrun.launcher <> - The same value is already set for this option. This value is ignored., at file: C:\BB\INNLphep2w6r\b\tmpveijag\vcs\perfrun1\launcher\src\configuration.cpp:866
+535 [165356] WARN perfrun.launcher <> - The same value is already set for this option. This value is ignored., at file: C:\BB\INNLphep2w6r\b\tmpveijag\vcs\perfrun1\launcher\src\configuration.cpp:866
+535 [165356] INFO perfrun.launcher <> - create file finder object
+535 [165356] INFO perfrun.launcher <> - create a result directory: pattern = C:\demo\console - 3 aggregate aggregate\r001so pid = 4294967295
+546 [165356] INFO perfrun.launcher <> - create data directory = C:\demo\console - 3 aggregate aggregate\r001so\data.0
+548 [165356] INFO perfrun.launcher <> - Creating the master collection flag
+588 [165356] INFO perfrun.launcher <> - Done creating the master collection flag
+588 [52244] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+589 [52244] INFO perfrun.sdk <> - Allocating TMU :C:\demo\console - 3 aggregate aggregate\r001so\data.0\systemcollector-172932-simont01.sc
+590 [52244] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+594 [52244] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+594 [52244] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+594 [52244] INFO perfrun.launcher <> - plugin [etw.kernel] was disabled because it doesn't support the given collection type.
+595 [52244] INFO perfrun.etw <> - temporary log file name: C:\Users\simont\AppData\Local\Temp\amplxe-tmp-simont\perfrun1_etw_785636987787.etl
+595 [52244] INFO perfrun.launcher <> - plugin [etw.wsa] was disabled because it doesn't support the given collection type.
+595 [52244] INFO perfrun.mrte <> - system-wide mode is 0
+595 [52244] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+656 [52244] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=C:\demo\console - 3 aggregate aggregate\r001so\data.0
+656 [52244] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=simont01
+656 [52244] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:amplxe_samplingmrte_javaprof_1.0
+656 [52244] INFO perfrun.mrte <> - PATH=C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\runtime;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft\Azure Functions Core Tools\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;$env:POSH_PATH;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Users\simont\AppData\Local\Microsoft\WindowsApps;C:\Users\simont\.dotnet\tools;C:\Users\simont\AppData\Roaming\npm;C:\Users\simont\AppData\Local\Programs\Microsoft VS Code\bin
+657 [52244] INFO perfrun.mrte <> - COR_ENABLE_PROFILING=1
+657 [52244] INFO perfrun.mrte <> - COR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+657 [52244] INFO perfrun.mrte <> - COMPLUS_ProfAPI_ProfilerCompatibilitySetting=EnableV2Profiler
+657 [52244] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+657 [52244] INFO perfrun.mrte <> - CORECLR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+657 [52244] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+657 [52244] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+657 [52244] INFO perfrun.mrte <> - Data directory: C:\demo\console - 3 aggregate aggregate\r001so\data.0
+657 [52244] INFO perfrun.mrte <> - Mrte plugin is initialized
+657 [52244] INFO perfrun.launcher <> - plugin [emon] was disabled because it doesn't support the given collection type.
+657 [52244] INFO perfrun.launcher <> - plugin [cuscol] was disabled because it doesn't support the given collection type.
+661 [52244] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\sep.exe" -dry-run -ec CPU_CLK_UNHALTED.THREAD:sa=1900000,CPU_CLK_UNHALTED.REF_TSC:sample:sa=1900000,INST_RETIRED.ANY:sample:sa=1900000,CPU_CLK_UNHALTED.REF_XCLK:sa=100003,CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE:sa=100003,UNC_IMC_DRAM_DATA_READS,UNC_IMC_DRAM_DATA_WRITES -experimental
+672 [52244] INFO perfrun.sdk <> - runCmd started PID 158668
+889 [52244] INFO perfrun.launcher <> - plugin [vtsspp] was disabled because it doesn't support the given collection type.
+890 [52244] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+890 [52244] INFO perfrun.launcher <> - plugin [aoclprofile] was disabled because it doesn't support the given collection type.
+890 [52244] INFO perfrun.tpss <> - initialize tpss controller
+890 [52244] INFO perfrun.launcher <> - plugin [tpss] was disabled because it doesn't support the given collection type.
+890 [52244] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+890 [52244] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+890 [52244] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+890 [52244] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+890 [52244] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\latest\socwatch\64\socwatch.exe" --skip-usage-collection --help
+899 [52244] INFO perfrun.sdk <> - runCmd started PID 171308
+1471 [52244] INFO perfrun.launcher <> - plugin [hwloc] was disabled because it doesn't support the given collection type.
+1471 [52244] INFO perfrun.launcher <> - plugin [ipmwatch] was disabled because it doesn't support the given collection type.
+1472 [52244] INFO perfrun.launcher <> - plugin [os_counters] was disabled because it doesn't support the given collection type.
+1472 [52244] INFO perfrun.launcher <> - plugin [l0_metrics] was disabled because it doesn't support the given collection type.
+1472 [165356] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\runtime;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft\Azure Functions Core Tools\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;$env:POSH_PATH;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Users\simont\AppData\Local\Microsoft\WindowsApps;C:\Users\simont\.dotnet\tools;C:\Users\simont\AppData\Roaming\npm;C:\Users\simont\AppData\Local\Programs\Microsoft VS Code\bin
+1472 [165356] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin32\runtime\ittnotify_collector.dll
+1472 [165356] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\runtime\ittnotify_collector.dll
+1472 [165356] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+1473 [165356] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin32\runtime\ittnotify_collector.dll
+1473 [165356] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\runtime\ittnotify_collector.dll
+1473 [165356] INFO perfrun.launcher <> - set environment variable: OMP_TOOL_LIBRARIES = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin32\runtime\ittnotify_collector.dll;C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\runtime\ittnotify_collector.dll
+1473 [165356] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+1473 [165356] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+1473 [165356] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+1474 [165356] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+1474 [165356] INFO perfrun.launcher <> - set environment variable: OMP_TOOL = disabled
+1474 [165356] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = C:\demo\console - 3 aggregate aggregate\r001so\data.0
+1474 [165356] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = simont01
+1474 [165356] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:amplxe_samplingmrte_javaprof_1.0
+1474 [165356] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\runtime;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft\Azure Functions Core Tools\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;$env:POSH_PATH;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Users\simont\AppData\Local\Microsoft\WindowsApps;C:\Users\simont\.dotnet\tools;C:\Users\simont\AppData\Roaming\npm;C:\Users\simont\AppData\Local\Programs\Microsoft VS Code\bin
+1474 [165356] INFO perfrun.launcher <> - set environment variable: COR_ENABLE_PROFILING = 1
+1475 [165356] INFO perfrun.launcher <> - set environment variable: COR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+1475 [165356] INFO perfrun.launcher <> - set environment variable: COMPLUS_ProfAPI_ProfilerCompatibilitySetting = EnableV2Profiler
+1475 [165356] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+1475 [165356] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+1475 [165356] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+1475 [165356] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+1475 [165356] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+1501 [165356] INFO perfrun.sdk <> - IProcessUtil: the given executable 'C:\git\console-power\bin\Debug\net6.0\console-power.exe' is valid.
+1501 [165356] INFO perfrun.launcher <> - Launcher: command line to start before modification = C:\git\console-power\bin\Debug\net6.0\console-power.exe
+1501 [165356] INFO perfrun.launcher <> - Launcher: command line to start after modification = C:\git\console-power\bin\Debug\net6.0\console-power.exe
+1501 [165356] INFO perfrun.launcher <> - ProcessCreator object was created
+1511 [165356] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+1512 [52244] INFO perfrun.itt <> - start itt controller for pid #173300
+1514 [52244] INFO perfrun.etw <> - Trace session was captured
+1530 [52244] INFO perfrun.etw <> - append event trace log: C:\Users\simont\AppData\Local\Temp\amplxe-tmp-simont\perfrun1_etw_785636987787.etl
+1530 [52244] INFO perfrun.etw <> - is event consumer initialized: 0
+1530 [52244] INFO perfrun.etw <> - Trace session was captured
+1536 [171288] INFO perfrun.sdk <> - Allocating TMU :C:\demo\console - 3 aggregate aggregate\r001so\data.0\gdata.0.edx
+2755 [52244] INFO perfrun.etw <> - append event trace log: PERFRUN_DXETW_TRACE_SESSION
+2755 [52244] INFO perfrun.etw <> - is event consumer initialized: 1
+4033 [52244] ERROR perfrun.stdsrc <> - status == 0L 'gh2::error::FailedTo.Call.The.Function("StopTrace"):StopTrace'
+C:\BB\INNLphep2w6r\b\tmpveijag\vcs\perfrun1\plugins\stdsrc\src\etw\collector.cpp(187): runtool::stdsrc::EtwSession::stop
+, at file: C:\BB\INNLphep2w6r\b\tmpveijag\vcs\perfrun1\plugins\stdsrc\src\etw\collector.cpp:187
+4165 [52244] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\sep.exe" -start -experimental -uem timer=10 -lbr call_stack -em factor=5 -p-state trigger=CPU_CLK_UNHALTED.REF_TSC -out "C:\demo\console - 3 aggregate aggregate\r001so\data.0\sepcc14.20220921T110113.169687" -ec INST_RETIRED.ANY:sample:sa=1900000,CPU_CLK_UNHALTED.THREAD:sa=1900000,CPU_CLK_UNHALTED.REF_TSC:sample:sa=1900000,CPU_CLK_UNHALTED.REF_XCLK:sa=100003,CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE:sa=100003,UNC_IMC_DRAM_DATA_READS,UNC_IMC_DRAM_DATA_WRITES, -d 0 -uem factor=10
+4177 [52244] INFO perfrun.sdk <> - runCmd started PID 7404
+5187 [52244] INFO perfrun.power <> - Starting SoC Watch collection with following command line: "C:\Program Files (x86)\Intel\oneAPI\vtune\latest\socwatch\64\socwatch.exe" --skip-usage-collection --max-detail -r vtune --polling --interval 10 -f power -o "C:\demo\console - 3 aggregate aggregate\r001so\data.0\socwatchcc14.20220921T110110.478560"
+5189 [52244] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\latest\socwatch\64\socwatch.exe" --skip-usage-collection --max-detail -r vtune --polling --interval 10 -f power -o "C:\demo\console - 3 aggregate aggregate\r001so\data.0\socwatchcc14.20220921T110110.478560"
+5196 [52244] INFO perfrun.sdk <> - runCmd started PID 166464
+6346 [52244] INFO perfrun.power <> - SoC Watch collection started successfully. Process handle: < class runtool::sdk::ProcessHandle instance at 000001FEFE07BFD8 >
+6348 [165356] INFO perfrun.launcher <> - Launcher: all plugins were started
+6348 [165356] INFO perfrun.launcher <> - DirectoryMonitor object was created
+6349 [165356] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+6349 [165356] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+6349 [165356] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+6350 [165356] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+6384 [165356] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+6521 [165356] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+6535 [52244] INFO perfrun.itt <> - detach itt controller
+6535 [52244] INFO perfrun.itt <> - detach itt controller done
+6539 [52244] INFO perfrun.etw <> - is event consumer initialized: 1
+6539 [52244] INFO perfrun.sdk <> - De-allocating TMU: C:\demo\console - 3 aggregate aggregate\r001so\data.0\gdata.0.edx
+7055 [52244] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\sep.exe" -stop
+7062 [52244] INFO perfrun.sdk <> - runCmd started PID 175420
+8625 [52244] INFO perfrun.sepdk <> - Sampling successfully stopped.
+
+8625 [52244] INFO perfrun.sepdk <> - Waiting for main SEP process (7404) to finish...
+8627 [52244] INFO perfrun.sepdk <> - Main SEP process finished
+8627 [52244] INFO perfrun.power <> - Interruptiong SoC Watch collection. Process handle: < class runtool::sdk::ProcessHandle instance at 000001FEFE07BFD8 >
+9475 [52244] INFO perfrun.power <> - SoC Watch collection stopped successfully
+9475 [52244] INFO perfrun.sdk <> - De-allocating TMU: C:\demo\console - 3 aggregate aggregate\r001so\data.0\systemcollector-172932-simont01.sc
+9491 [52244] INFO perfrun.system <> - closed the system trace file: C:\demo\console - 3 aggregate aggregate\r001so\data.0\systemcollector-172932-simont01.sc
+9492 [165356] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+9492 [165356] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+9492 [165356] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+9492 [165356] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+9492 [165356] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: C:\BB\INNLphep2w6r\b\tmpveijag\vcs\perfrun1\launcher\src\command_handler.cpp:226
+9494 [165356] INFO perfrun.launcher <> - Application exit code: 0
+9494 [165356] INFO perfrun.launcher <> - Exit code: 0

@@ -1,0 +1,20 @@
+--------------------------------------------------------------------------
+Intel(R) SoC Watch for Windows* OS Version 2022.1.0 [Feb 14 2022]
+Build Ref: f8a2732edea726dc6b70d31e28760706f7624869
+Driver Version 2.16.7 [Nov 23 2021]
+Copyright (c) 2022 Intel Corporation. All Rights Reserved.
+Platform power analysis tool for use with Intel processors/chipsets/platforms.
+*Other names and brands may be claimed as the property of others. 
+--------------------------------------------------------------------------
+
+Platform specification: CPU=0x6.0x8e.0xa PCH=0x9d4e
+NOTE: Hyper-V is enabled on this system.
+NOTE: Virtual Secure Mode is enabled on this system.
+
+*** Started infinite seconds data collection. Use Ctrl-C to stop collection.
+*** Post-processing results.
+ Processing ETW data for Info (metadata) Session.
+ Processing ETW data for Extra data Session.
+ Processing ETW data for HW data Session.
+The generated .pwr file can only be visualized in VTune Amplifier 2018 Update 3 or later
+*** Data written to: C:\demo\console - loop selection\r001so\data.0\socwatch2a02c.20220921T101940.037530

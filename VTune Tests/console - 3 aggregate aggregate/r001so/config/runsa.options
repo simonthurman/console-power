@@ -1,0 +1,25 @@
+-r
+C:\demo\console - 3 aggregate aggregate\r001so
+--power-config=power
+--pwr-sampling-interval=10
+--itt-config=frame
+--stdsrc-config=cswitch,disk
+--stackwalk=lbr
+--event-mux-factor=5
+--etw-config=dma,frames
+--data-limit-mb=1000
+--disk-space-limit=0
+--power-config=power
+--mrte-type=java,dotnet
+--stack-unwind-limit=8388608
+--event-config=CPU_CLK_UNHALTED.THREAD:sa=1900000,CPU_CLK_UNHALTED.REF_TSC:sample:sa=1900000,INST_RETIRED.ANY:sample:sa=1900000,CPU_CLK_UNHALTED.REF_XCLK:sa=100003,CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE:sa=100003
+--event-config=UNC_IMC_DRAM_DATA_READS,UNC_IMC_DRAM_DATA_WRITES
+--platform-type=116
+--uncore-sampling-interval=10
+--mrte-mode=auto
+--etw-config=clr,js
+--stdsrc-config=cswitch
+--p-state-trigger=CPU_CLK_UNHALTED.REF_TSC
+--app-working-dir=C:\git\console-power\bin\Debug\net6.0
+--
+C:\git\console-power\bin\Debug\net6.0\console-power.exe

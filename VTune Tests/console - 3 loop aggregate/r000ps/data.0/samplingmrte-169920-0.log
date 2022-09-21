@@ -1,0 +1,1691 @@
+
+172144 : 0x0 : 3 : logger_init :  LOG FILE OPENED (by collectunits.logger), level: 4
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::InitializeInternal :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::InitializeInternal :  Retrieved pointer to ICorProfilerInfo9
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::InitializeInternal :  Primary collector is 2
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::setEventMask :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::ThreadCreated :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::ThreadCreated :  threadId=0x24cff18a5d0
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::ThreadCreated :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::ThreadCreated :  threadId=0x24cff1b3bb0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::ModuleLoadFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::ModuleLoadFinished :  moduleId=0x7ffc045b4000
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047782f0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() returned 1 regions by funcId=0x7ffc047782f0 reJitId=0x0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  Region 1; funcId=0x7ffc047782f0 startAddr=0x7ffc046d8190
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  Processing funcId=0x7ffc047782f0 tsc=0x9596e7fadcaf vaddr=0x7ffc046d8190
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  Get code info by vaddr=0x7ffc046d8190
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetCodeInfo4() returned codesNum=1 by vaddr=0x7ffc046d8190
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::isCodeAlreadyReported :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  New (1): funcId=0x7ffc047782f0 addr=0x7ffc046d8190 size=0x5c
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getILToNativeMap :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::cleanUpFunctionData :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047782d8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() returned 1 regions by funcId=0x7ffc047782d8 reJitId=0x0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  Region 1; funcId=0x7ffc047782d8 startAddr=0x7ffc046d8200
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  Processing funcId=0x7ffc047782d8 tsc=0x9596e8213ce2 vaddr=0x7ffc046d8200
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  Get code info by vaddr=0x7ffc046d8200
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetCodeInfo4() returned codesNum=1 by vaddr=0x7ffc046d8200
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::isCodeAlreadyReported :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  New (1): funcId=0x7ffc047782d8 addr=0x7ffc046d8200 size=0x31
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getILToNativeMap :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::cleanUpFunctionData :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc04781148
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc04781148
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc04781148
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc04781148
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc04782130
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc04782130
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc04782130
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc04782130
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc04782380
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc04782380
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc04782380
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc04782380
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc04784938
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc04784938
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc04784938
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc04784938
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047849b0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047849b0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047849b0
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047849b0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc04786f68
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc04786f68
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc04786f68
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc04786f68
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc04786f80
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc04786f80
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc04786f80
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc04786f80
+173956 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::ThreadCreated :  [CALLED]
+173956 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::ThreadCreated :  threadId=0x24cfff4e550
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc04787790
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc04787790
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc04787790
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc04787790
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc04787c70
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc04787c70
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc04787c70
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc04787c70
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc04778278
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc04778278
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc04778278
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc04778278
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc04778230
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc04778230
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc04778230
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc04778230
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc04789678
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc04789678
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc04789678
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc04789678
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047898f8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047898f8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047898f8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047898f8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc0477c320
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc0477c320
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc0477c320
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc0477c320
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc04789d48
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() returned 1 regions by funcId=0x7ffc04789d48 reJitId=0x0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  Region 1; funcId=0x7ffc04789d48 startAddr=0x7ffc046deb60
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  Processing funcId=0x7ffc04789d48 tsc=0x9596e911043a vaddr=0x7ffc046deb60
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  Get code info by vaddr=0x7ffc046deb60
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetCodeInfo4() returned codesNum=1 by vaddr=0x7ffc046deb60
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::isCodeAlreadyReported :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  New (1): funcId=0x7ffc04789d48 addr=0x7ffc046deb60 size=0x1d1
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getILToNativeMap :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::cleanUpFunctionData :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047a6738
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047a6738
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047a6738
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047a6738
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc04782390
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc04782390
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc04782390
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc04782390
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047871f8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047871f8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047871f8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047871f8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc0477c1d0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc0477c1d0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc0477c1d0
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc0477c1d0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047a6750
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047a6750
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047a6750
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047a6750
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::ModuleLoadFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::ModuleLoadFinished :  moduleId=0x7ffc047a68c8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047a7e98
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047a7e98
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047a7e98
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047a7e98
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047a8228
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047a8228
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047a8228
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047a8228
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::ModuleLoadFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::ModuleLoadFinished :  moduleId=0x7ffc047a8348
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047a8900
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047a8900
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047a8900
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047a8900
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047a88e8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047a88e8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047a88e8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047a88e8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc04781118
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc04781118
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc04781118
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc04781118
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc04781040
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc04781040
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc04781040
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc04781040
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047823f0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047823f0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047823f0
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047823f0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc04782370
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc04782370
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc04782370
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc04782370
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc04778200
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc04778200
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc04778200
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc04778200
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047aa010
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047aa010
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047aa010
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047aa010
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047a9528
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047a9528
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047a9528
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047a9528
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047aad80
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047aad80
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047aad80
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047aad80
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047a9db0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047a9db0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047a9db0
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047a9db0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047a9a18
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047a9a18
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047a9a18
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047a9a18
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047aa470
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047aa470
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047aa470
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047aa470
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047acbe8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047acbe8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047acbe8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047acbe8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047aad90
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047aad90
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047aad90
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047aad90
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047ac248
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047ac248
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047ac248
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047ac248
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047ac260
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047ac260
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047ac260
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047ac260
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047777b8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047777b8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047777b8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047777b8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047ac4d0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047ac4d0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047ac4d0
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047ac4d0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047acef8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047acef8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047acef8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047acef8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047ad3d8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047ad3d8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047ad3d8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047ad3d8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047aec30
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047aec30
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047aec30
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047aec30
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047af2b8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047af2b8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047af2b8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047af2b8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047af1a8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047af1a8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047af1a8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047af1a8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047b2eb8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047b2eb8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047b2eb8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047b2eb8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047b2e98
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047b2e98
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047b2e98
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047b2e98
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047b2ea8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047b2ea8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047b2ea8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047b2ea8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047acd80
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047acd80
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047acd80
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047acd80
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047b3118
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047b3118
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047b3118
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047b3118
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047af270
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047af270
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047af270
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047af270
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc0477c0e8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc0477c0e8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc0477c0e8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc0477c0e8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047ac500
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047ac500
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047ac500
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047ac500
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047ad420
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047ad420
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047ad420
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047ad420
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::ModuleLoadFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::ModuleLoadFinished :  moduleId=0x7ffc047b3be8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047a8828
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() returned 1 regions by funcId=0x7ffc047a8828 reJitId=0x0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  Region 1; funcId=0x7ffc047a8828 startAddr=0x7ffc046e2bf0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  Processing funcId=0x7ffc047a8828 tsc=0x9596ea3136f6 vaddr=0x7ffc046e2bf0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  Get code info by vaddr=0x7ffc046e2bf0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetCodeInfo4() returned codesNum=1 by vaddr=0x7ffc046e2bf0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::isCodeAlreadyReported :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  New (1): funcId=0x7ffc047a8828 addr=0x7ffc046e2bf0 size=0x1e3
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getILToNativeMap :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::cleanUpFunctionData :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047b4bd0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047b4bd0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047b4bd0
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047b4bd0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047b4528
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047b4528
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047b4528
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047b4528
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047b4e90
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047b4e90
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047b4e90
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047b4e90
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047b4eb8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047b4eb8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047b4eb8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047b4eb8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::ModuleLoadFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::ModuleLoadFinished :  moduleId=0x7ffc047b5318
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc04780990
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc04780990
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc04780990
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc04780990
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047b5b18
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047b5b18
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047b5b18
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047b5b18
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047b44b0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047b44b0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047b44b0
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047b44b0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047b6950
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047b6950
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047b6950
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047b6950
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047b89e8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047b89e8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047b89e8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047b89e8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::ModuleLoadFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::ModuleLoadFinished :  moduleId=0x7ffc047b8e78
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047b8d30
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047b8d30
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047b8d30
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047b8d30
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc0477e068
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc0477e068
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc0477e068
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc0477e068
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047b9fb8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047b9fb8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047b9fb8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047b9fb8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc0477e0c8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc0477e0c8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc0477e0c8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc0477e0c8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047ba240
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047ba240
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047ba240
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047ba240
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047ba258
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047ba258
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047ba258
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047ba258
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc0477e818
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc0477e818
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc0477e818
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc0477e818
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047b9330
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047b9330
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047b9330
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047b9330
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047ba908
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047ba908
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047ba908
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047ba908
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047ba680
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047ba680
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047ba680
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047ba680
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc0477e450
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc0477e450
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc0477e450
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc0477e450
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc0477dfe0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc0477dfe0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc0477dfe0
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc0477dfe0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc0477e010
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc0477e010
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc0477e010
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc0477e010
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047ba978
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047ba978
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047ba978
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047ba978
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047ba6f0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047ba6f0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047ba6f0
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047ba6f0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047b5b90
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047b5b90
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047b5b90
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047b5b90
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047b5ba8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047b5ba8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047b5ba8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047b5ba8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::DynamicMethodJITCompilationFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::DynamicMethodJITCompilationFinished :  funcId=0x7ffc047bb828
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() returned 1 regions by funcId=0x7ffc047bb828 reJitId=0x0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  Region 1; funcId=0x7ffc047bb828 startAddr=0x7ffc046e49a0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  Processing funcId=0x7ffc047bb828 tsc=0x0 vaddr=0x7ffc046e49a0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  Get code info by vaddr=0x7ffc046e49a0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetCodeInfo4() returned codesNum=1 by vaddr=0x7ffc046e49a0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::isCodeAlreadyReported :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  New (1): funcId=0x7ffc047bb828 addr=0x7ffc046e49a0 size=0xdb
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047baf68
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047baf68
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047baf68
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047baf68
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::DynamicMethodJITCompilationFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::DynamicMethodJITCompilationFinished :  funcId=0x7ffc047bbd58
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() returned 1 regions by funcId=0x7ffc047bbd58 reJitId=0x0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  Region 1; funcId=0x7ffc047bbd58 startAddr=0x7ffc046e4aa0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  Processing funcId=0x7ffc047bbd58 tsc=0x0 vaddr=0x7ffc046e4aa0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  Get code info by vaddr=0x7ffc046e4aa0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetCodeInfo4() returned codesNum=1 by vaddr=0x7ffc046e4aa0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::isCodeAlreadyReported :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  New (1): funcId=0x7ffc047bbd58 addr=0x7ffc046e4aa0 size=0xa5
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047b4558
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047b4558
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047b4558
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047b4558
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047baf78
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047baf78
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047baf78
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047baf78
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047bd268
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047bd268
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047bd268
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047bd268
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc0477e108
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc0477e108
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc0477e108
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc0477e108
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc0477e0f8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc0477e0f8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc0477e0f8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc0477e0f8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047bd8a0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047bd8a0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047bd8a0
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047bd8a0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047bc758
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047bc758
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047bc758
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047bc758
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d15f8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d15f8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d15f8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d15f8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d3bd8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d3bd8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d3bd8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d3bd8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047bc2b0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047bc2b0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047bc2b0
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047bc2b0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc0477c568
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc0477c568
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc0477c568
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc0477c568
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047bb288
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047bb288
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047bb288
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047bb288
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047b9908
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047b9908
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047b9908
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047b9908
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047bdb60
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047bdb60
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047bdb60
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047bdb60
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047bb298
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047bb298
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047bb298
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047bb298
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047bc8e0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047bc8e0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047bc8e0
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047bc8e0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047bc8b8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047bc8b8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047bc8b8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047bc8b8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047b98c8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047b98c8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047b98c8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047b98c8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047bdc30
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047bdc30
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047bdc30
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047bdc30
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d42d8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d42d8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d42d8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d42d8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047bb5d0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047bb5d0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047bb5d0
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047bb5d0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047bc298
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047bc298
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047bc298
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047bc298
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d6618
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d6618
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d6618
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d6618
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047bc0c8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047bc0c8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047bc0c8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047bc0c8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047bbf88
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047bbf88
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047bbf88
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047bbf88
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047bbea8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047bbea8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047bbea8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047bbea8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d6e58
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d6e58
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d6e58
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d6e58
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d7338
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d7338
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d7338
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d7338
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d79c0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d79c0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d79c0
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d79c0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d8908
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d8908
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d8908
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d8908
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d79a8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d79a8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d79a8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d79a8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d88f8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d88f8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d88f8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d88f8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d8c88
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d8c88
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d8c88
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d8c88
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d8d28
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d8d28
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d8d28
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d8d28
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047a7dc0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047a7dc0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047a7dc0
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047a7dc0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047a81e0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047a81e0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047a81e0
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047a81e0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047db308
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047db308
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047db308
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047db308
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047dbcb0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047dbcb0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047dbcb0
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047dbcb0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047db920
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047db920
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047db920
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047db920
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d7a50
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d7a50
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d7a50
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d7a50
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d7320
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d7320
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d7320
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d7320
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d8568
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d8568
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d8568
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d8568
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d9070
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d9070
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d9070
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d9070
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d6d08
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d6d08
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d6d08
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d6d08
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d72c0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d72c0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d72c0
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d72c0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d6df8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d6df8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d6df8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d6df8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d6d68
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d6d68
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d6d68
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d6d68
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d79d8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d79d8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d79d8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d79d8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047dcc50
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047dcc50
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047dcc50
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047dcc50
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d7a08
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d7a08
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d7a08
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d7a08
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d87f0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d87f0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d87f0
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d87f0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047dd120
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047dd120
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047dd120
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047dd120
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047dd0f0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047dd0f0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047dd0f0
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047dd0f0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047dd078
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047dd078
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047dd078
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047dd078
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d8370
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d8370
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d8370
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d8370
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d8550
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d8550
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d8550
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d8550
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d8388
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d8388
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d8388
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d8388
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047dd838
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047dd838
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047dd838
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047dd838
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc0477d4f8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc0477d4f8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc0477d4f8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc0477d4f8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047dde70
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047dde70
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047dde70
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047dde70
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc04789d00
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc04789d00
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc04789d00
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc04789d00
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d8110
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d8110
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d8110
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d8110
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d84a8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d84a8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d84a8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d84a8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047de040
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047de040
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047de040
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047de040
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047de0b8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047de0b8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047de0b8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047de0b8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047de0d0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047de0d0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047de0d0
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047de0d0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc04789b50
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() returned 1 regions by funcId=0x7ffc04789b50 reJitId=0x0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  Region 1; funcId=0x7ffc04789b50 startAddr=0x7ffc046e98e0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  Processing funcId=0x7ffc04789b50 tsc=0x9596eb6d8e3d vaddr=0x7ffc046e98e0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  Get code info by vaddr=0x7ffc046e98e0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetCodeInfo4() returned codesNum=1 by vaddr=0x7ffc046e98e0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::isCodeAlreadyReported :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  New (1): funcId=0x7ffc04789b50 addr=0x7ffc046e98e0 size=0x167
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getILToNativeMap :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::cleanUpFunctionData :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d7c30
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d7c30
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d7c30
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d7c30
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d8328
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d8328
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d8328
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d8328
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d83b8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d83b8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d83b8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d83b8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047dd880
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047dd880
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047dd880
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047dd880
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047d8808
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047d8808
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047d8808
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047d8808
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc04789b20
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc04789b20
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc04789b20
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc04789b20
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047dead8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047dead8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047dead8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047dead8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047bc968
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047bc968
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047bc968
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047bc968
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc046ce0a0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc046ce0a0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc046ce0a0
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc046ce0a0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047b9928
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047b9928
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047b9928
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047b9928
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047bb5c0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047bb5c0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047bb5c0
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047bb5c0
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047bb5f8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047bb5f8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047bb5f8
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047bb5f8
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047ac900
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047ac900
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047ac900
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047ac900
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047bc068
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047bc068
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047bc068
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047bc068
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047bc920
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172144 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047bc920
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172144 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047bc920
+172144 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047bc920
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc04781100
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc04781100
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc04781100
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc04781100
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047a77a0
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047a77a0
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047a77a0
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047a77a0
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047af288
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047af288
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047af288
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047af288
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047b0900
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047b0900
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047b0900
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047b0900
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047b04e8
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047b04e8
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047b04e8
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047b04e8
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047b0630
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047b0630
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047b0630
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047b0630
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047b03a8
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047b03a8
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047b03a8
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047b03a8
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc04778308
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc04778308
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc04778308
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc04778308
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc04778320
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc04778320
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc04778320
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc04778320
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047a99a0
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047a99a0
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047a99a0
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047a99a0
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047ac288
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047ac288
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047ac288
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047ac288
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047acf18
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047acf18
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047acf18
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047acf18
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047e2508
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::processDynamicMethodJitInfo :  funcId=0x7ffc047e2508
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getFunctionIDs :  [CALLED]
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  [CALLED]
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getUnprocessedJitCode :  GetNativeCodeStartAddresses() failed with 0x0 for funcId=0x7ffc047e2508
+172080 : 0x0 : 1 : samplingmrte_1_0::CLRCallbacks::getFunctionProps :  getUnprocessedJitCode() failed for funcId=0x7ffc047e2508
+172080 : 0x0 : 4 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  [CALLED]
+172080 : 0x0 : 3 : samplingmrte_1_0::CLRCallbacks::JITCachedFunctionSearchFinished :  funcId=0x7ffc047acda0

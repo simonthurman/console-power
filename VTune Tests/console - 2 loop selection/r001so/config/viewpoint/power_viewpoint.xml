@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<bag xmlns:boolean="http://www.w3.org/2001/XMLSchema#boolean">
+ <metrics>
+  <tab>
+   <unique_id>60</unique_id>
+   <id>power_metricsTab</id>
+   <name>Power Metrics</name>
+  </tab>
+  <timeline_area>
+   <unique_id>62</unique_id>
+   <id>package_power</id>
+   <name>Package Power</name>
+   <boolean:show_YScale>true</boolean:show_YScale>
+   <add_queryRef_to_rowBy>/Entity</add_queryRef_to_rowBy>
+  </timeline_area>
+  <metric>
+   <type>SC</type>
+   <version>2</version>
+   <id>package_power</id>
+   <short_name>Package Power</short_name>
+   <long_name>Package Power</long_name>
+   <tab_group>60</tab_group>
+   <timeline_group>62</timeline_group>
+   <instance_table>package_power_data</instance_table>
+   <value_attribute_table>dynamic_package_power_value</value_attribute_table>
+   <field_descriptor>Type</field_descriptor>
+   <value_descriptor>Energy</value_descriptor>
+   <quantity>
+    <name>Energy</name>
+    <units>mJ</units>
+    <converted_units>mJ</converted_units>
+    <multiplier>1.0</multiplier>
+    <value_type>double</value_type>
+    <quantity_rate>
+     <name>Power</name>
+     <units>mW</units>
+     <converted_units>mW</converted_units>
+     <multiplier>1.0</multiplier>
+     <value_type>double</value_type>
+    </quantity_rate>
+   </quantity>
+   <fields>
+    <field>Power</field>
+   </fields>
+   <boolean:value_metric>true</boolean:value_metric>
+   <boolean:time_metric>false</boolean:time_metric>
+   <boolean:has_process>false</boolean:has_process>
+   <boolean:has_thread>false</boolean:has_thread>
+   <boolean:has_nameid>false</boolean:has_nameid>
+   <boolean:has_callstack>false</boolean:has_callstack>
+   <boolean:field_count_converted_top5>true</boolean:field_count_converted_top5>
+   <boolean:field_count_converted_histogram>true</boolean:field_count_converted_histogram>
+   <boolean:field_rate_top5>true</boolean:field_rate_top5>
+   <boolean:field_rate_histogram>true</boolean:field_rate_histogram>
+  </metric>
+ </metrics>
+</bag>

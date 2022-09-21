@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<bag xmlns:unsignedLong="http://www.w3.org/2001/XMLSchema#unsignedLong">
+ <entry path="grouper" unsignedLong:size="1">
+  <indexFields>
+   <field path="dd_device_info"/>
+   <field path="package_power_data_attr"/>
+   <field path="package_power_data_scale"/>
+  </indexFields>
+  <int64Fields>
+   <field path="package_power_data_duration"/>
+   <field path="package_power_data_count"/>
+   <field path="package_power_data_inst_count"/>
+  </int64Fields>
+  <doubleFields/>
+ </entry>
+</bag>
