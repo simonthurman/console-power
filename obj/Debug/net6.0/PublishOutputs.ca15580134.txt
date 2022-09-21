@@ -1,0 +1,5 @@
+C:\git\console-power\bin\Debug\net6.0\publish\console-power.exe
+C:\git\console-power\bin\Debug\net6.0\publish\console-power.dll
+C:\git\console-power\bin\Debug\net6.0\publish\console-power.deps.json
+C:\git\console-power\bin\Debug\net6.0\publish\console-power.runtimeconfig.json
+C:\git\console-power\bin\Debug\net6.0\publish\console-power.pdb
